@@ -1,4 +1,4 @@
-package Liferay.Serivce.Override;
+package com.liferay.serivce.override;
 
 /**
  * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
