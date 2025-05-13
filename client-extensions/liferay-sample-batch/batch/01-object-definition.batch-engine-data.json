@@ -20,7 +20,7 @@
     "objectActions": [],
     "enableLocalization": true,
     "accountEntryRestricted": false,
-    "externalReferenceCode": "Master_Bank_Data",
+    "externalReferenceCode": "Master-Bank-Data",
     "objectFields": [
         {
             "indexed": false,
