@@ -1,0 +1,8 @@
+assemble:
+    -   from: assets
+        hashify: favicon.ico
+        into: static
+liferay-theme-favicon:
+    name: Liferay Theme Favicon
+    type: themeFavicon
+    url: favicon.*.ico

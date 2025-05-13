@@ -1,0 +1,295 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"importStrategy": "ON_ERROR_FAIL",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+    "enableComments": false,
+    "objectRelationships": [],
+    "objectFolderExternalReferenceCode": "training",
+    "enableCategorization": true,
+    "accountEntryRestrictedObjectFieldName": "",
+    "className": "com.liferay.object.model.ObjectDefinition#X1Y5",
+    "objectActions": [],
+    "enableLocalization": true,
+    "accountEntryRestricted": false,
+    "externalReferenceCode": "Master-Bank-Data",
+    "objectFields": [
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "String",
+            "label": {
+                "en_US": "Author"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "2ea80d6d-927a-6d05-eb4a-b1bf568e127f",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "creator",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "8c88f5db-a893-240d-7d77-665f982a0fdf",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "createDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "79eaec10-1989-3231-4141-76a594672de2",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "externalReferenceCode",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Long",
+            "label": {
+                "en_US": "ID"
+            },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "06b5d801-9b88-584e-4e60-ec5be1566ca5",
+            "indexedAsKeyword": true,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "id",
+            "state": false,
+            "businessType": "LongInteger",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "38c37974-b465-dd78-6b32-031813e580e0",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "modifiedDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Integer",
+            "label": {
+                "en_US": "Status"
+            },
+            "type": "Integer",
+            "required": false,
+            "externalReferenceCode": "d04afaf4-51e5-2a6b-ae1a-e4a23f16dca0",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "status",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [
+                {
+                    "name": "uniqueValues",
+                    "value": true
+                }
+            ],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "Bank Name"
+            },
+            "type": "String",
+            "required": true,
+            "externalReferenceCode": "ffe637ed-4103-7025-7459-8900a7dfeda1",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": true,
+            "name": "bankName",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [
+                {
+                    "name": "uniqueValues",
+                    "value": true
+                }
+            ],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "Branch"
+            },
+            "type": "String",
+            "required": true,
+            "externalReferenceCode": "8b2711bc-564f-c03f-e827-c42f8fdde9ad",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": true,
+            "name": "branch",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        }
+    ],
+    "restContextPath": "/o/c/masterdatabanks",
+    "scope": "company",
+    "portlet": true,
+    "modifiable": true,
+    "parameterRequired": false,
+    "enableObjectEntryHistory": true,
+    "titleObjectFieldName": "id",
+    "objectValidationRules": [],
+    "active": true,
+    "defaultLanguageId": "en_US",
+    "enableIndexSearch": true,
+    "label": {
+        "en_US": "MasterDataBank"
+    },
+    "panelCategoryKey": "control_panel.account_entries_admin",
+    "pluralLabel": {
+        "en_US": "Banks"
+    },
+    "objectLayouts": [],
+    "system": false,
+    "objectViews": [
+        {
+            "objectDefinitionExternalReferenceCode": "Master_Bank_Data",
+            "name": {
+                "en_US": "view"
+            },
+            "objectViewFilterColumns": [],
+            "objectViewSortColumns": [],
+            "defaultObjectView": true,
+            "objectViewColumns": [
+                {
+                    "objectFieldName": "externalReferenceCode",
+                    "label": {
+                        "en_US": "External Reference Code"
+                    },
+                    "priority": 0
+                },
+                {
+                    "objectFieldName": "id",
+                    "label": {
+                        "en_US": "ID"
+                    },
+                    "priority": 1
+                },
+                {
+                    "objectFieldName": "branch",
+                    "label": {
+                        "en_US": "Branch"
+                    },
+                    "priority": 2
+                },
+                {
+                    "objectFieldName": "bankName",
+                    "label": {
+                        "en_US": "Bank Name"
+                    },
+                    "priority": 3
+                },
+                {
+                    "objectFieldName": "status",
+                    "label": {
+                        "en_US": "Status"
+                    },
+                    "priority": 4
+                },
+                {
+                    "objectFieldName": "creator",
+                    "label": {
+                        "en_US": "Author"
+                    },
+                    "priority": 5
+                }
+            ]
+        }
+    ],
+    "enableObjectEntryDraft": true,
+    "name": "MasterDataBank",
+    "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {},
+        "exportObjectDefinition": {}
+    },
+    "status": {
+        "label_i18n": "Approved",
+        "code": 0,
+        "label": "approved"
+    }
+}
+	]
+}
