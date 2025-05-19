@@ -1,0 +1,32 @@
+
+.alert-dismissible {
+    position: relative;
+    padding-right: 3rem;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+    background: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.alert-dismissible .close:hover {
+    opacity: 1;
+}
+
+.fade {
+    transition: opacity 0.5s linear;
+}
+
+.fade.show {
+    opacity: 1;
+}

@@ -21,7 +21,6 @@ public class CustomPostLoginOverride implements LifecycleAction {
 		HttpServletResponse response = lifecycleEvent.getResponse();
 
 		try {
-
 			response.sendRedirect(AppConstants.DASHBOARDURL);
 
 		} catch (Exception e) {
